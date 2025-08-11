@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Futuristic Portfolio</title>
+    <style>
+        /* Animated gradient background */
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            color: white;
+            scroll-behavior: smooth;
+            background: linear-gradient(-45deg, #0ff, #00f, #f0f, #ff0);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+        }
+
+        @keyframes gradientBG {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 15px;
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #0ff;
+            text-shadow: 0 0 10px #0ff;
+            letter-spacing: 2px;
+            box-shadow: 0 0 20px #0ff;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #0ff;
+            text-shadow: 0 0 10px #0ff;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #fff;
+            text-shadow: 0 0 15px #0ff;
+        }
+
+        .card {
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 15px rgba(0,255,255,0.4);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 25px rgba(255,0,255,0.6);
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.5);
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+            color: #eee;
+            box-shadow: 0 0 10px #0ff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>🚀 My Portfolio</header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="card">
+            <p>Hello! I'm <strong>Manoj</strong>, a passionate web developer and future tech enthusiast. 
+            I create modern, interactive, and futuristic websites and applications to bring ideas to life.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="card">
+            <ul>
+                <li>HTML5, CSS3, JavaScript</li>
+                <li>React.js & Node.js</li>
+                <li>Responsive Web Design</li>
+                <li>UI/UX Design</li>
+                <li>Basic c & c++</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="card">
+            <h3>🌌 Space Explorer Website</h3>
+            <p>An interactive 3D space exploration web app using Three.js.</p>
+        </div>
+        <div class="card">
+            <h3>🤖 AI Chatbot</h3>
+            <p>A chatbot interface for customer service and automation.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="card">
+            <p>📧 Email: manojkumarpattnaik28@gmail.com</p>
+            <p>📱 Phone: +91 7873438395</p>
+        </div>
+    </section>
+
+        <section id="about">
+        <h2>Education</h2>
+        <div class="card">
+            <p>Persuing <strong>BCA</strong> <br>
+                Completed <strong>10th & +2</strong>, 
+</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Name Manoj Kumar Pattnaik . All Rights Reserved.
+    </footer>
+
+</body>
+</html>
